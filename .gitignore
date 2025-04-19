@@ -1,0 +1,16 @@
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Output files (可选)
+*.npy
+*.npz
+*.log
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
