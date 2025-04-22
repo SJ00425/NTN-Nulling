@@ -50,7 +50,7 @@ from sionna.phy.channel import  cir_to_time_channel
 
 
 # Define constants (adjust these as needed)
-dish_diameter = 0.4        # meters
+dish_diameter = 0.6        # meters
 tx_gain_dB = 38.1           # dBi
 c = 3e8                     # speed of light (m/s)
 # tx_frequency_mid = np.mean([13.75, 14.5]) * 1e9  # mid frequency in Hz
