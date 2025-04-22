@@ -386,7 +386,7 @@ class SceneConfigSionna:
                 tx = sionna.rt.Transmitter(
                     name=f"tx-{s}",
                     position=self.tx_pos[i],
-                    # power_dbm=30,
+                    power_dbm=30,
                     # orientation=[yaw, 0, -0.1745329252] # headdown 10 degree -0.0873
                     orientation=[yaw, 0,  -0.0873]
                 )
@@ -399,7 +399,7 @@ class SceneConfigSionna:
                 num_cols = tn_rx_cols,
                 vertical_spacing=0.5,
                 horizontal_spacing=0.5,
-                polarization="V",
+                polarization="cross",
                 # pattern="tr38901"
                 pattern="dipole"
             )
