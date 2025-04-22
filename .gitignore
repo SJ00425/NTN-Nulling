@@ -14,3 +14,5 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+# 忽略结果文件夹
+ResultPlot/
